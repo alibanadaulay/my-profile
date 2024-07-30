@@ -36,6 +36,7 @@ function ProfileHeader() {
       </div>
       <div className="bg-red flex-1 relative w-full h-64">
         <Image
+          key={"/kucing.png"}
           src={"/kucing.png"}
           alt="kucing"
           layout="fill"

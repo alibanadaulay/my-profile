@@ -55,6 +55,7 @@ const MenuButton = ({
 }) => {
   return (
     <li
+      key={path}
       className={`${
         pathname === path
           ? "text-white bg-gray-600 rounded-xl p-2"
