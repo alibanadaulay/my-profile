@@ -31,6 +31,7 @@ export function Menu() {
       <ul className="mt-5 flex absolute justify-center bg-transparent float-none w-full">
         {menuItems.map((item) => (
           <MenuButton
+            key={item.path}
             pathname={pathname}
             path={item.path}
             router={router}
