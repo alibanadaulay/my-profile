@@ -17,7 +17,15 @@ export function ProfileDetail() {
           designing scalable, efficient, and robust solutions.
         </p>
         <div className="w-full h-[2px] bg-white rounded-sm mt-4"></div>
-        <button className="bg-button p-2 rounded-md mt-6 text-white">
+        <button
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/1vMuEaJ_c5JRJ_EwWc7lOsUVv9hoF8W-9/view?usp=sharing",
+              "_blank"
+            );
+          }}
+          className="bg-button p-2 rounded-md mt-6 text-white"
+        >
           Download CV
         </button>
       </div>

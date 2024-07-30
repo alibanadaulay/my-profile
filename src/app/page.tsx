@@ -37,7 +37,7 @@ function ProfileHeader() {
       <div className="bg-red flex-1 relative w-full h-64">
         <Image
           key={"kucing-image"}
-          src={"/kucing.png"}
+          src={"my-profile/kucing.png"}
           alt="kucing"
           layout="fill"
           objectFit="cover"

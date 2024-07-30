@@ -10,7 +10,15 @@ export function Profile() {
           I make the complex simple
         </h2>
       </div>
-      <button className="bg-button p-2 rounded-md mt-3 text-white">
+      <button
+        onClick={() => {
+          window.open(
+            "https://www.linkedin.com/in/ali-bana-daulay-83a142156/",
+            "_blank"
+          );
+        }}
+        className="bg-button p-2 rounded-md mt-3 text-white"
+      >
         Contact Me
       </button>
       <div className="flex mt-14 md:items-center ">
