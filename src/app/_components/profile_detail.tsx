@@ -1,3 +1,5 @@
+"use client";
+
 export function ProfileDetail() {
   return (
     <div className="flex flex-col md:flex-row mt-6">

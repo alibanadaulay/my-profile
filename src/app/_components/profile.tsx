@@ -1,3 +1,5 @@
+"use client";
+
 export function Profile() {
   return (
     <div className="justify-center flex-col flex items-center pt-32 md:w-1/2">
