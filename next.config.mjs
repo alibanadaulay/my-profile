@@ -1,11 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    assetPrefix: '/my-profile/',
+    assetPrefix: '/my-profile/main/public/',
     basePath: '/my-profile',
-    images: {
-        loader: 'imgix',
-        path: '/',
-    },
     output: "export",
     reactStrictMode: true, 
 };
