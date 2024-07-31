@@ -35,7 +35,7 @@ export function ProfileDetail() {
         <h2 className="text-4xl text-green-600 font-bold items-center pt-8">
           My Services
         </h2>
-        <div className="flex pt-5">
+        <div className="flex pt-5 md:flex-row ">
           <SkillSet name="Android Development" />
           <div className="w-[0.5px] h-20 bg-gray-300"></div>
           <SkillSet name="Frontend Development" />
@@ -63,7 +63,7 @@ export function ProfileDetail() {
 
 function SkillSet(obj: { name: string }) {
   return (
-    <h2 className="text-xl font-bold text-white  rounded-lg p-2 mt-2 mx-4 text-center">
+    <h2 className="text-sm md:text-xl font-bold text-white  rounded-lg p-2 mt-2 mx-4 text-center">
       {obj.name}
     </h2>
   );

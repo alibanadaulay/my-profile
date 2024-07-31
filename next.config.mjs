@@ -5,7 +5,7 @@ const nextConfig = {
     images: {
         loader: 'default',
         path: '/my-profile/',
-  } ,
+  },
     output: "export",
     reactStrictMode: true, 
 };
