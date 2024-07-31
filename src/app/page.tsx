@@ -17,32 +17,3 @@ export default function Home() {
     </div>
   );
 }
-
-function MyProfile() {
-  return (
-    <div className="flex mt-10 md:flex-row">
-      <Image className="" src={"/kucing.png"} alt="kucing" />
-
-      <ProfileDetail />
-    </div>
-  );
-}
-
-function ProfileHeader() {
-  return (
-    <div className="bg-[#2a2a29] flex flex-col">
-      <div className="bg-blue flex-1">
-        <Profile />
-      </div>
-      <div className="bg-red flex-1 relative w-full h-64">
-        <Image
-          key={"kucing-image"}
-          src={"my-profile/kucing.png"}
-          alt="kucing"
-          layout="fill"
-          objectFit="cover"
-        />
-      </div>
-    </div>
-  );
-}
