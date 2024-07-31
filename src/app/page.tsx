@@ -10,7 +10,7 @@ export default function Home() {
       <div className="md:flex md:flex-row w-full md:pt-10 md:h-1/3  pb-11 bg-header">
         <Profile />
         <div className="items-center justify-center flex mt-6 md:w-1/2">
-          <Image src={"/kucing.png"} width={500} height={500} alt="kucing" />
+          <Image src="/kucing.png" width={500} height={500} alt="kucing" />
         </div>
       </div>
       <ProfileDetail />
