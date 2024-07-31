@@ -31,29 +31,29 @@ export function ProfileDetail() {
           Download CV
         </button>
       </div>
-      <div className="md:w-2/5 justify-center flex-col flex items-center mx-2 mt-2 pb-10 md:h-full md:px-10 lg:px-20 md:pt-4">
+      <div className="w-screen md:w-2/5 flex-col flex items-center">
         <h2 className="text-4xl text-green-600 font-bold items-center pt-8">
           My Services
         </h2>
-        <div className="flex pt-5 md:flex-row ">
+        <div className=" flex pt-5 md:flex-row flex-col justify-between items-center w-screen md:w-full">
           <SkillSet name="Android Development" />
-          <div className="w-[0.5px] h-20 bg-gray-300"></div>
+          <div className="w-4/5 h-[2px] md:w-[0.5px] md:h-12 bg-gray-300 my-4"></div>
           <SkillSet name="Frontend Development" />
-          <div className="w-[0.5px] h-20 bg-gray-300"></div>
+          <div className="w-4/5 h-[2px] md:w-[0.5px] md:h-12 bg-gray-300 my-4"></div>
           <SkillSet name="Backend Development" />
         </div>
         <h2 className="text-4xl text-green-600 font-bold items-center pt-8">
           Languanges
         </h2>
-        <div className="flex pt-5">
+        <div className=" flex py-5 md:flex-row flex-col justify-between items-center w-screen md:w-full">
           <SkillSet name="Kotlin" />
-          <div className="w-[0.5px] h-14 bg-gray-300"></div>
+          <div className="w-4/5 h-[2px] md:w-[0.5px] md:h-12 bg-gray-300 my-4"></div>
           <SkillSet name="Java" />
-          <div className="w-[0.5px] h-14 bg-gray-300"></div>
+          <div className="w-4/5 h-[2px] md:w-[0.5px] md:h-12 bg-gray-300 my-4"></div>
           <SkillSet name="React" />
-          <div className="w-[0.5px] h-14 bg-gray-300"></div>
+          <div className="w-4/5 h-[2px] md:w-[0.5px] md:h-12 bg-gray-300 my-4"></div>
           <SkillSet name="Flutter" />
-          <div className="w-[0.5px] h-14 bg-gray-300"></div>
+          <div className="w-4/5 h-[2px] md:w-[0.5px] md:h-12 bg-gray-300 my-4"></div>
           <SkillSet name="Golang" />
         </div>
       </div>
@@ -63,7 +63,7 @@ export function ProfileDetail() {
 
 function SkillSet(obj: { name: string }) {
   return (
-    <h2 className="text-sm md:text-xl font-bold text-white  rounded-lg p-2 mt-2 mx-4 text-center">
+    <h2 className="text-xl md:text-sm font-bold text-white  rounded-lg p-2 mt-2 mx-4 text-center">
       {obj.name}
     </h2>
   );
